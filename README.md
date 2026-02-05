@@ -17,11 +17,10 @@ The platform includes secure authentication, allowing authorized users to add ne
 ## Features
 - User authentication and authorization
 - Create and delete donation campaigns
-- Category-based campaign management
+- Category-based campaigns
 - Responsive user interface
 
 ## Getting Started
 
 ### Install dependencies
-```bash
-npm install
+
