@@ -1,0 +1,49 @@
+.stories {
+  padding: 70px 20px;
+  background-color: #ffffff;
+}
+
+.stories h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.story-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.story-card {
+  background: #f0f8f5;
+  border-radius: 15px;
+  max-width: 320px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-5px);
+}
+
+.story-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.story-card h3 {
+  color: #009879;
+  margin-bottom: 10px;
+}
+
+.story-card p {
+  color: #555;
+  font-size: 0.95rem;
+}

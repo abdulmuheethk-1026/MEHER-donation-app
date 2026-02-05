@@ -1,0 +1,63 @@
+.hero-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Circle groups on left + right */
+.circle-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* Force perfect circle images */
+.circle-box img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgb(180, 232, 174);
+}
+
+.circle-box p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Center Meher Logo */
+.hero-center img {
+  width: 260px;
+  height: 260px;
+  object-fit: contain;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .hero-wrapper {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .circle-group {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .circle-box img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-center img {
+    width: 200px;
+    height: 200px;
+  }
+}

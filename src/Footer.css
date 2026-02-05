@@ -1,0 +1,35 @@
+.footer {
+  background: #009879;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.95rem;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.8;
+}
+
+.footer p {
+  margin-top: 10px;
+  opacity: 0.9;
+}
